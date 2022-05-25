@@ -1,0 +1,44 @@
+site_name: Summer Bootcamp
+site_url: https://derekolk.github.io/summer-fullstack-bootcamp/
+repo_name: derekolk/summer-fullstack-bootcamp
+repo_url: https://github.com/derekolk/summer-fullstack-bootcamp
+site_description: "Summer fun building cool things!!"
+site_author: derekolk
+remote_branch: gh-pages
+
+theme:
+  name: readthedocs
+  features:
+    - navigation.instant
+    - navigation.expand
+    - search.suggest
+    - search.share
+
+markdown_extensions:
+  - smarty
+  - codehilite:
+      guess_lang: false
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.smartsymbols
+  - pymdownx.tabbed
+  - pymdownx.superfences
+  - pymdownx.emoji
+  - tables
+  - admonition
+
+nav:
+  - Getting Started: index.md
+  - Objectives: objectives.md
+  - Timineline: timeline.md
+  - Tools: tools.md
+  - Plan:
+    - Week 0: plan/week-0.md
